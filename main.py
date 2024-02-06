@@ -196,8 +196,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression, RidgeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
-from sklearn.metrics import classification_report
-
 pipelines = {
     'lr':make_pipeline(StandardScaler(), LogisticRegression()),
     'rc':make_pipeline(StandardScaler(), RidgeClassifier()),
